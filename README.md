@@ -25,7 +25,7 @@
 3. check virtual envirnment
 	- MAC - source venv/bin/activate
 	- WINDOW - . ./venv/Scripts/activate
-	- deactive : ends virtual envirnment
+	- deactivate : ends virtual environment
 
 4. pip install Django
 	- install Django framework
