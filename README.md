@@ -5,13 +5,15 @@
 - WINDOWS - python | pip
 
 ### check version
+#### Windows
 - python --version
-- python3 --version
 - pip --version
+#### Mac
+- python3 --version
 - pip3 --version
 
 
-### check setup
+### check setup (Windows)
  pip freeze : check all packages
 
 1. pip install virtualenv
@@ -22,22 +24,21 @@
     - venv : virtual environment
 		- run & name
 
-3. check virtual envirnment
+3. run virtual envirnment
 	- MAC - source venv/bin/activate
 	- WINDOW - . ./venv/Scripts/activate
 	- deactivate : ends virtual environment
+	
+5. pip freeze
+	- check to see what is installed on virtual env.
 
 4. pip install Django
 	- install Django framework
 	- within virtual environment
 	- type: "Django" > enter
 
-
 5. python -m pip install --upgrade pip
 	- optional
-
-
-
 
 ### use Django
 
